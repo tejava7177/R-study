@@ -8,6 +8,7 @@ weight= c(70,55,34,80)
   reutnr(출력값)
 }
 
+# bmi를 계산하는 함수
 cal_bmi=function(ww, hh){
   bmi = ww/(hh/100)**2
   return (bmi)
@@ -15,7 +16,7 @@ cal_bmi=function(ww, hh){
 
 # 엑셀파일을 읽어올 수 있는 함수가 포함된 패키지
 install.packages("readxl")
-readxl
+
 
 # 패키지 불러오기
 library(readxl)
