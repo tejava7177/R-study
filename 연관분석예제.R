@@ -15,8 +15,10 @@ transactions <- as(list(
 # 연관분석 수행
 rules <- apriori(transactions, parameter = list(support = 0.2, confidence = 0.6))
 
+
 # 연관규칙 요약
 summary(rules)
+
 
 # 결과 확인
 inspect(rules)
